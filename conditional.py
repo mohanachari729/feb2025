@@ -112,3 +112,7 @@ print(f"{age} you are eligble to vote") if age>=17 else print(f"you are not elig
 def age():
     return 1
 age()
+
+def sample():
+    return 1
+sample()
