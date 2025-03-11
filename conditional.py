@@ -106,13 +106,21 @@
 # result = "you are eligible to vote"if age>=18 else "you are not eligible to vote"
 # print(result)
 
-age = int(input("enter your age"))
-print(f"{age} you are eligble to vote") if age>=17 else print(f"you are not eligible to vote")
+# age = int(input("enter your age"))
+# print(f"{age} you are eligble to vote") if age>=17 else print(f"you are not eligible to vote")
 
-def age():
-    return 1
-age()
+# def age():
+#     return 1
+# age()
 
-def sample():
-    return 1
-sample()
+# def sample():
+#     return 1
+# sample()
+
+num = int(input("enter the marks for eligibility :"))
+marks = 150
+
+if num >= marks :
+    print("your eligible for the mains")
+else :
+    print("you are fail , better luck next time") 
